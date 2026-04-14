@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Mahasiswa</title>
+    <script>
+        function tampilkan(menu) {
+            document.getElementById("home").style.display = "none";
+            document.getElementById("profil").style.display = "none";
+            document.getElementById("latihan1").style.display = "none";
+            document.getElementById("latihan2").style.display = "none";
+
+            document.getElementById(menu).style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+
+<!-- Tabel utama -->
+<table border="1" width="100%" height="500">
+
+    <!-- HEADER -->
+    <tr>
+        <td colspan="2" align="center">
+            <h2>Header</h2>
+        </td>
+    </tr>
+
+    <!-- ISI -->
+    <tr>
+        <!-- SIDEBAR -->
+        <td width="20%" valign="top">
+            <br>
+            <a href="#" onclick="tampilkan('home')">Home</a><br><br>
+           <a href="#" onclick="tampilkan('latihan1')">Latihan 1</a><br><br>
+            <a href="#" onclick="tampilkan('latihan2')">Latihan 2</a><br><br>
+            <a href="#" onclick="tampilkan('profil')">Profil</a><br><br>
+        </td>
+
+        <!-- CONTENT -->
+        <td valign="top">
+
+            <!-- HOME -->
+            <div id="home">
+                <h3>Content</h3>
+                <p>Selamat datang di website saya</p>
+            </div>
+
+            <!-- PROFIL -->
+            <div id="profil" style="display:none;">
+                <h3>Profil</h3>
+                <table border="2">
+                    <tr>
+                        <td>Nama</td>
+                        <td>RIFALDI KARUBY</td>
+                    </tr>
+                    <tr>
+                        <td>KELAS</td>
+                        <td>05TPLP001</td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- LATIHAN 2 (AMBIL FILE LAIN) -->
+            <div id="latihan1" style="display:none;">
+                <h3>Latihan 1</h3>
+                <iframe src="latihan1.html" width="100%" height="400" style="border:none;"></iframe>
+            </div>
+            
+            <div id="latihan2" style="display:none;">
+                <h3>Latihan 2</h3>
+                <iframe src="latihan2.html" width="100%" height="400" style="border:none;"></iframe>
+            </div>
+
+        </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+        <td colspan="2" align="center">
+             &copy; RIFALDI KARUBY
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+</body>
+</html>
