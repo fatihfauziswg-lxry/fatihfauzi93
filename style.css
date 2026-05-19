@@ -1,0 +1,94 @@
+<style>
+
+/* BODY */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+/* TABEL */
+table{
+    border-collapse: collapse;
+}
+
+/* HEADER */
+.header{
+    background: linear-gradient(to right, #2563eb, #06b6d4);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header h1{
+    margin: 0;
+    font-size: 35px;
+}
+
+.header p{
+    margin-top: 10px;
+}
+
+/* SIDEBAR */
+.sidebar{
+    background-color: #1e293b;
+    padding: 15px;
+}
+
+/* MENU */
+.sidebar a{
+    display: block;
+    background-color: #334155;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* HOVER MENU */
+.sidebar a:hover{
+    background-color: #0ea5e9;
+    transform: translateX(5px);
+}
+
+/* CONTENT */
+.content{
+    background-color: white;
+    padding: 20px;
+}
+
+/* CARD */
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TABEL PROFIL */
+.profil{
+    border-collapse: collapse;
+    width: 350px;
+}
+
+.profil td{
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* IFRAME */
+iframe{
+    border-radius: 10px;
+}
+
+</style>
